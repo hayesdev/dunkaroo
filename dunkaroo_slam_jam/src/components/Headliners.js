@@ -4,9 +4,11 @@ import styled from "styled-components";
 
 function Headliners() {
   console.log(bands);
+  const { day, bigBands } = bands[0];
   return (
     <Headliner>
-      {bands[0].bigBands.map((band) => {
+      <h1>{day}</h1>
+      {bigBands.map((band) => {
         return <h1>{band}</h1>;
       })}
     </Headliner>

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 
 import bands from "./bands";
 import Headliners from "./components/Headliners";
+import SmallerActs from "./components/SmallerActs";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Header></Header>
       <div className="days">
         <Headliners />
-        <h2>Smaller acts</h2>
+        <SmallerActs />
         <h3>Totally unknown</h3>
       </div>
       <div className="days">
