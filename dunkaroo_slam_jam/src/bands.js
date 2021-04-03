@@ -2,7 +2,7 @@ import React from "react";
 
 const bands = [
   {
-    day: "Fri",
+    day: "Fri.",
     bigBands: ["Epstein & The Francos", "Sick Cheney", "Dusty On The Inside"],
     smallerActs: [
       "Pisces Rising",
@@ -16,7 +16,7 @@ const bands = [
     ],
   },
   {
-    day: "Sat",
+    day: "Sat.",
     bigBands: ["Epstein & The Francos", "Sick Cheney", "Dusty On The Inside"],
     smallerActs: [
       "Pisces Rising",
@@ -30,7 +30,7 @@ const bands = [
     ],
   },
   {
-    day: "Sun",
+    day: "Sun.",
     bigBands: ["Epstein & The Francos", "Sick Cheney", "Dusty On The Inside"],
     smallerActs: [
       "Pisces Rising",

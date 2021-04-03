@@ -20,5 +20,4 @@ const SmallerAct = styled.div`
   flex-direction: row;
   width: 100vw;
   justify-content: space-evenly;
-  border: 1px solid red;
 `;
