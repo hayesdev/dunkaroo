@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(#f4fd03, #bf0eb4);
+  /* background-image: linear-gradient(#f4fd03, #bf0eb4); */
 }
 
 .days {
@@ -14,5 +14,3 @@ body {
   color: white;
   border: 1px solid white;
 }
-
-/* bigBands smallerActs unknowns */

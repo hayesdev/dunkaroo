@@ -8,11 +8,17 @@ const bands = [
       "Pisces Rising",
       "The Boys Are Back ft. Thin Lizzo",
       "Mannequin Lewinsky",
+      "Sinkhole City",
+      "Goose Puncher",
+
+      "Crew Cab",
+      "Suess M.D.",
     ],
     unknowns: [
       "Split The Bill Sideways",
       "Song for the Hopless",
       "Fluid Loser ft. Slam Me with Saline",
+      "Grinch Theory",
     ],
   },
   {
