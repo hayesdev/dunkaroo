@@ -1,10 +1,9 @@
 body {
   display: flex;
   flex-direction: column;
-  /* background-image: linear-gradient(#f4fd03, #bf0eb4); */
 }
 
-.days {
+/* .days {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,4 +12,4 @@ body {
   height: 30vh;
   color: white;
   border: 1px solid white;
-}
+} */
