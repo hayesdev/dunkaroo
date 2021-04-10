@@ -2,7 +2,8 @@ import React from "react";
 import Header from "./components/Header";
 
 import "./App.css";
-import FirstSection from "./components/SectionOne";
+import SectionOne from "./components/SectionOne";
+import SectionTwo from "./components/SectionTwo";
 import VideoSectionOne from "./components/VideoSectionOne";
 import VideoSectionTwo from "./components/VideoSectionTwo";
 import VideoSectionThree from "./components/VideoSectionThree";
@@ -13,10 +14,11 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <FirstSection />
+      <SectionOne />
       <VideoSectionOne />
       <VideoSectionTwo />
       <VideoSectionThree />
+      <SectionTwo />
     </div>
   );
 }

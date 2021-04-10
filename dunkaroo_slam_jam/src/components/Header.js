@@ -6,7 +6,13 @@ function Header() {
   return (
     <MainHeader>
       <MenuIcon />
-      <HeaderTitle>Dunkaroo Slam Jam</HeaderTitle>
+      <HeaderTitle>
+        Dunkaroo Slam Jam
+        <TitleInfo>
+          <p>August 5-6, 2021</p>
+          <p>Shreveport, LA</p>
+        </TitleInfo>
+      </HeaderTitle>
       <HeaderButton>Tickets</HeaderButton>
     </MainHeader>
   );
@@ -26,7 +32,12 @@ const MainHeader = styled.div`
 const HeaderTitle = styled.div`
   display: flex;
   justify-content: center;
-  width: 25vw;
+  align-items: center;
+  width: 45vw;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 800;
+  /* border: 3px solid red; */
 `;
 
 const HeaderButton = styled.button`
@@ -36,4 +47,19 @@ const HeaderButton = styled.button`
   border-radius: 40px;
   padding-right: 5px;
   margin-right: 20px;
+`;
+
+const TitleInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  margin-left: 5px;
+  > p {
+    font-size: 11px;
+    font-weight: 350;
+    margin: 0;
+  }
 `;
