@@ -6,9 +6,10 @@ function FirstSection() {
     <SectionOne>
       <IntroSectionContainer>
         <Intro>
-          Dunkaroo Slam Jam 2021 Introdution section Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Quis maxime cum odit provident deleniti
-          illo quam est pariatur alias nulla!
+          Dunkaroo Slam Jam 2021 <br />
+          Introdution section Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Quis maxime cum odit provident deleniti illo quam est pariatur
+          alias nulla!
           <ReadMoreBtn>Read More</ReadMoreBtn>
         </Intro>
         <JamFamBlock>
@@ -30,7 +31,7 @@ const SectionOne = styled.div`
   align-items: center;
   width: 100vw;
   height: 30vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 `;
 
 const IntroSectionContainer = styled.div`
@@ -40,10 +41,10 @@ const IntroSectionContainer = styled.div`
 `;
 
 const ReadMoreBtn = styled.button`
-  background: #d4ef0e;
+  background: white;
   height: 40px;
   width: 100px;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 40px;
   padding-right: 5px;
 `;
@@ -54,5 +55,8 @@ const Intro = styled.div`
   width: 60%;
 `;
 const JamFamBlock = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   width: 40%;
 `;

@@ -27,6 +27,7 @@ const MainHeader = styled.div`
 
 const HeaderTitle = styled.div`
   display: flex;
+  justify-content: center;
   width: 25vw;
 `;
 
@@ -35,5 +36,6 @@ const HeaderButton = styled.button`
   height: 40px;
   width: 100px;
   border-radius: 40px;
-  padding-right: 5px;
+  /* padding-right: 5px; */
+  margin-right: 20px;
 `;
