@@ -21,8 +21,6 @@ const MainHeader = styled.div`
   color: white;
   height: 85px;
   width: 100vw;
-  padding-left: 10px;
-  padding-right: 5px;
 `;
 
 const HeaderTitle = styled.div`
@@ -36,6 +34,6 @@ const HeaderButton = styled.button`
   height: 40px;
   width: 100px;
   border-radius: 40px;
-  /* padding-right: 5px; */
+  padding-right: 5px;
   margin-right: 20px;
 `;

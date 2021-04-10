@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import hero from "../assets/dsj_hero.jpg";
+import image from "../assets/dsj_hero1.jpg";
 
 function Hero() {
   return (
     <HeroImage>
-      <img src={hero} />
+      <img src={image} />
     </HeroImage>
   );
 }
@@ -14,5 +14,10 @@ export default Hero;
 
 const HeroImage = styled.div`
   width: 100vw;
-  height: 25vh;
+  height: undefined;
+  > img {
+    width: 100vw;
+    height: 100%;
+  }
+  border: 3px solid red;
 `;

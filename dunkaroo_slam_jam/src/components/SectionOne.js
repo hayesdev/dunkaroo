@@ -13,8 +13,7 @@ function FirstSection() {
           <ReadMoreBtn>Read More</ReadMoreBtn>
         </Intro>
         <JamFamBlock>
-          Jam <br />
-          Fam
+          Jam <br /> Fam
         </JamFamBlock>
       </IntroSectionContainer>
     </SectionOne>
@@ -31,7 +30,6 @@ const SectionOne = styled.div`
   align-items: center;
   width: 100vw;
   height: 30vh;
-  /* border: 1px solid red; */
 `;
 
 const IntroSectionContainer = styled.div`
@@ -58,5 +56,8 @@ const JamFamBlock = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  color: #74e93c;
+  font-size: 60px;
+  font-weight: 800;
   width: 40%;
 `;

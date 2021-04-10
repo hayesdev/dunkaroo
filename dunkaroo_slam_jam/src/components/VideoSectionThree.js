@@ -2,11 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
 
-function VideoSectionTwo() {
+function VideoSectionThree() {
   return (
     <SectionContainer>
+      <VideoContainer>
+        <ReactPlayer url="https://www.youtube.com/watch?v=Vs-H-WGbosQ&ab_channel=HARDFEST" />
+      </VideoContainer>
       <Info>
-        <h1>Music & Entertainment</h1>
+        <h1>Camping & Adventure</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facilis
           ducimus iste sint quibusdam maxime corporis magnam nulla voluptate
@@ -14,14 +17,11 @@ function VideoSectionTwo() {
         </p>
         <SeeLineupBtn>See Lineup</SeeLineupBtn>
       </Info>
-      <VideoContainer>
-        <ReactPlayer url="https://www.youtube.com/watch?v=Vs-H-WGbosQ&ab_channel=HARDFEST" />
-      </VideoContainer>
     </SectionContainer>
   );
 }
 
-export default VideoSectionTwo;
+export default VideoSectionThree;
 
 const SectionContainer = styled.div`
   display: flex;
