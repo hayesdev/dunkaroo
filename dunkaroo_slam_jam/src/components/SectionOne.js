@@ -1,28 +1,28 @@
 import React from "react";
 import styled from "styled-components";
 
-function FirstSection() {
+function SectionOne() {
   return (
-    <SectionOne>
+    <SectionContainer>
       <IntroSectionContainer>
         <Intro>
           Dunkaroo Slam Jam 2021 <br />
-          Introdution section Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Quis maxime cum odit provident deleniti illo quam est pariatur
-          alias nulla!
+          Strap the fuck in for the experience of a lifetime - Introdution
+          section Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+          maxime cum odit provident deleniti illo quam est pariatur alias nulla!
           <ReadMoreBtn>Read More</ReadMoreBtn>
         </Intro>
         <JamFamBlock>
           Jam <br /> Fam
         </JamFamBlock>
       </IntroSectionContainer>
-    </SectionOne>
+    </SectionContainer>
   );
 }
 
-export default FirstSection;
+export default SectionOne;
 
-const SectionOne = styled.div`
+const SectionContainer = styled.div`
   display: flex;
   background: linear-gradient(#fb3298, #fb6907);
   color: white;

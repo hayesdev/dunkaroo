@@ -9,7 +9,7 @@ function Header() {
       <HeaderTitle>
         Dunkaroo Slam Jam
         <TitleInfo>
-          <p>August 5-6, 2021</p>
+          <p>August 5-8, 2021</p>
           <p>Shreveport, LA</p>
         </TitleInfo>
       </HeaderTitle>
@@ -21,11 +21,13 @@ function Header() {
 export default Header;
 const MainHeader = styled.div`
   display: flex;
+  position: fixed;
+  z-index: 2;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(#3282d4, #7142e4);
   color: white;
-  height: 85px;
+  height: 75px;
   width: 100vw;
 `;
 
@@ -37,7 +39,6 @@ const HeaderTitle = styled.div`
   height: 100%;
   font-size: 30px;
   font-weight: 800;
-  /* border: 3px solid red; */
 `;
 
 const HeaderButton = styled.button`

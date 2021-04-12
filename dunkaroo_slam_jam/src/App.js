@@ -12,6 +12,7 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <div>
+      {/* USE SCOOBY DOO RUH ROH FOR ANYTHING CLICKABLE (besides menu and tickets) */}
       <Header />
       <Hero />
       <SectionOne />
