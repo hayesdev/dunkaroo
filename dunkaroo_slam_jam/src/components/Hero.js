@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import image from "../assets/dsj_hero1.jpg";
+// import image from "../assets/dsj_hero1.jpg";
+import image from "../assets/hero2.jpg";
 
 function Hero() {
   return (
@@ -22,7 +23,7 @@ const HeroImage = styled.div`
   width: 100vw;
   height: 80vh;
   background-image: url(${image});
-  background-size: 100%;
+  background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
   /* background: #fb3298; */

@@ -8,6 +8,8 @@ import VideoSectionOne from "./components/VideoSectionOne";
 import VideoSectionTwo from "./components/VideoSectionTwo";
 import VideoSectionThree from "./components/VideoSectionThree";
 import Hero from "./components/Hero";
+import Signup from "./components/Signup";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <VideoSectionTwo />
       <VideoSectionThree />
       <SectionTwo />
+      <Signup />
+      <Footer />
     </div>
   );
 }

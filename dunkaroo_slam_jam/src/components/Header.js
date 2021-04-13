@@ -44,7 +44,7 @@ const HeaderTitle = styled.div`
 const HeaderButton = styled.button`
   background: #d4ef0e;
   height: 40px;
-  width: 100px;
+  width: 90px;
   border-radius: 40px;
   padding-right: 5px;
   margin-right: 20px;
