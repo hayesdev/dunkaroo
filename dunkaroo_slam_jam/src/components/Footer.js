@@ -4,26 +4,26 @@ import styled from "styled-components";
 function Footer() {
   return (
     <MainFooter>
-      <h3>FESTIVAL</h3>
-      <ul>
-        <li>Tickets</li>
-        <li>Merch</li>
-        <li>Partners</li>
-      </ul>
+      <Section>
+        <h3>FESTIVAL</h3>
+        <a href="#">Tickets</a>
+        <a href="#">Merch</a>
+        <a href="#">Partners</a>
+      </Section>
 
-      <h3>HELP</h3>
-      <ul>
-        <li>Contact</li>
-        <li>Information</li>
-      </ul>
+      <Section>
+        <h3>HELP</h3>
+        <a href="#">Contact</a>
+        <a href="#">Information</a>
+      </Section>
 
-      <h3>SOCIAL</h3>
-      <ul>
-        <li>Instagram</li>
-        <li>Facebook</li>
-        <li>Twitter</li>
-        <li>Reddit</li>
-      </ul>
+      <Section>
+        <h3>SOCIAL</h3>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Reddit</a>
+      </Section>
     </MainFooter>
   );
 }
@@ -36,5 +36,16 @@ const MainFooter = styled.div`
   color: white;
   width: 100vw;
   height: 400px;
-  border: 1px solid red;
+
+  > div > a {
+    text-decoration: none;
+    color: white;
+  }
+`;
+
+const Section = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 300px;
 `;

@@ -11,7 +11,10 @@ function Signup() {
           much more.
         </p>
       </SignupTitle>
-      <SignupForm type="form" placeholder="Email Address" />
+      <SignupForm>
+        <input type="form" placeholder="Email Address"></input>
+        <button>Sign up Now</button>
+      </SignupForm>
     </SectionContainer>
   );
 }
@@ -20,6 +23,9 @@ export default Signup;
 
 const SectionContainer = styled.div`
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(90deg, #3282d4, #7142e4);
   width: 100vw;
   height: 380px;
@@ -27,8 +33,13 @@ const SectionContainer = styled.div`
 
 const SignupTitle = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   color: white;
+  border: 1px solid red;
 `;
 
-const SignupForm = styled.form``;
+const SignupForm = styled.form`
+  width: 200px;
+  height: 100px;
+`;
