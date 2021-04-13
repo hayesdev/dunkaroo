@@ -33,6 +33,7 @@ export default Footer;
 const MainFooter = styled.div`
   display: flex;
   background: black;
+  color: white;
   width: 100vw;
   height: 400px;
   border: 1px solid red;
