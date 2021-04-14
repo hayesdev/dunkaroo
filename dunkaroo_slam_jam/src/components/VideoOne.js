@@ -52,6 +52,7 @@ const VideoContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   width: 45vw;
+  height: 400px;
   /* border: 2px solid white; */
 `;
 

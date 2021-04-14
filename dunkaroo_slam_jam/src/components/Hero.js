@@ -1,16 +1,21 @@
 import React from "react";
 import styled from "styled-components";
-// import image from "../assets/dsj_hero1.jpg";
 import image from "../assets/hero2.jpg";
+import lineup from "../assets/bonnaroo_lineup.jpg";
 
 function Hero() {
   return (
     <HeroImage>
-      {/* <img src={image} alt="a music concert" /> */}
-      <div>
-        <div>THIS IS WHERE LINEUP GOES</div>
-        <button>Buy Tickets</button>
-      </div>
+      <MainContent>
+        <Lineup>
+          <img src={lineup} />{" "}
+        </Lineup>
+        <TicketContainer>
+          <div>Just Announced: 2021 Lineup</div>
+          <Tickets>2021 Tickets On Sale Now!</Tickets>
+          <TicketBtn>Tickets</TicketBtn>
+        </TicketContainer>
+      </MainContent>
     </HeroImage>
   );
 }
@@ -26,26 +31,44 @@ const HeroImage = styled.div`
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
-  /* background: #fb3298; */
-  /* > img {
-    width: 100vw;
-    height: 50%;
-  } */
-  > div {
-    display: flex;
-    justify-content: center;
-    color: white;
-    bottom: 28em;
-    z-index: 1;
-    width: 99vw;
-    height: 200px;
-    border: 3px solid red;
-  }
+`;
 
-  > div > button {
-    background: #d4ef0e;
-    height: 40px;
-    width: 100px;
-    border-radius: 40px;
+const MainContent = styled.div`
+  display: flex;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  width: 99vw;
+  height: 400px;
+  /* border: 3px solid red; */
+`;
+
+const Lineup = styled.div`
+  height: 450px;
+  width: 350px;
+  /* border: 3px solid red; */
+  > img {
+    height: 100%;
+    width: 100%;
   }
+`;
+
+const TicketContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+`;
+
+const Tickets = styled.div`
+  font-size: 40px;
+  font-weight: 600;
+`;
+
+const TicketBtn = styled.button`
+  background: #d4ef0e;
+  height: 40px;
+  width: 100px;
+  font-weight: 600;
+  border-radius: 40px;
 `;
