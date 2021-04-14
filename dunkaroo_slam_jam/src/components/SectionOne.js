@@ -1,30 +1,26 @@
 import React from "react";
 import styled from "styled-components";
-import ReactPlayer from "react-player";
 
-function VideoTwo() {
+function SectionOne() {
   return (
     <SectionContainer>
-      <VideoContainer>
-        <ReactPlayer
-          width="800px"
-          height="400px"
-          url="https://www.youtube.com/watch?v=Vs-H-WGbosQ&ab_channel=HARDFEST"
-        />
-      </VideoContainer>
       <Info>
-        <h1>Campgrounds</h1>
+        <h1>Premium Upgrades</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facilis
           ducimus iste sint quibusdam maxime corporis magnam nulla voluptate
           sapiente!
         </p>
+        <LearnMoreBtn>Learn More</LearnMoreBtn>
       </Info>
+      <PhotoContainer>
+        <img src="" />
+      </PhotoContainer>
     </SectionContainer>
   );
 }
 
-export default VideoTwo;
+export default SectionOne;
 
 const SectionContainer = styled.div`
   display: flex;
@@ -42,14 +38,23 @@ const Info = styled.div`
   width: 55%;
   padding-left: 20px;
   > h1 {
-    color: #fb6b00;
+    color: #fb3299;
   }
   /* border: 2px solid white; */
 `;
 
-const VideoContainer = styled.div`
+const PhotoContainer = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   width: 45vw;
   /* border: 2px solid white; */
+`;
+
+const LearnMoreBtn = styled.button`
+  background: white;
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 40px;
+  padding-right: 5px;
 `;

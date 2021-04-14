@@ -6,7 +6,7 @@ function VideoOne() {
   return (
     <SectionContainer>
       <Info>
-        <h1>Outdoor Adventures</h1>
+        <h1>Music & Entertainment</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facilis
           ducimus iste sint quibusdam maxime corporis magnam nulla voluptate
@@ -15,7 +15,11 @@ function VideoOne() {
         <SeeLineupBtn>See Lineup</SeeLineupBtn>
       </Info>
       <VideoContainer>
-        <ReactPlayer url="https://www.youtube.com/watch?v=Vs-H-WGbosQ&ab_channel=HARDFEST" />
+        <ReactPlayer
+          width="800px"
+          height="400px"
+          url="https://www.youtube.com/watch?v=Vs-H-WGbosQ&ab_channel=HARDFEST"
+        />
       </VideoContainer>
     </SectionContainer>
   );
@@ -36,16 +40,18 @@ const SectionContainer = styled.div`
 const Info = styled.div`
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 55%;
+  padding-left: 20px;
   > h1 {
     color: #fb3299;
   }
+  /* border: 2px solid white; */
 `;
 
 const VideoContainer = styled.div`
   display: flex;
-
-  width: 45%;
+  justify-content: flex-end;
+  width: 45vw;
   /* border: 2px solid white; */
 `;
 

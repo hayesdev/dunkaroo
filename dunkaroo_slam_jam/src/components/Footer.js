@@ -24,6 +24,12 @@ function Footer() {
         <a href="#">Twitter</a>
         <a href="#">Reddit</a>
       </Section>
+      {/* <FooterInfo>
+        <a href="#">Dunkaroo</a>
+        <a href="#">Privacy</a>
+        <a href="#">Term & Conditions</a>
+        <a href="#">Do Not Feed The Staff</a>
+      </FooterInfo> */}
     </MainFooter>
   );
 }
@@ -32,6 +38,7 @@ export default Footer;
 
 const MainFooter = styled.div`
   display: flex;
+  justify-content: space-around;
   background: black;
   color: white;
   width: 100vw;
@@ -40,6 +47,7 @@ const MainFooter = styled.div`
   > div > a {
     text-decoration: none;
     color: white;
+    margin-bottom: 10px;
   }
 `;
 
@@ -49,3 +57,5 @@ const Section = styled.div`
   width: 100px;
   height: 300px;
 `;
+
+const FooterInfo = styled.div``;

@@ -10,6 +10,10 @@ import VideoTwo from "./components/VideoTwo";
 import Hero from "./components/Hero";
 import Signup from "./components/Signup";
 import Footer from "./components/Footer";
+import SectionOne from "./components/SectionOne";
+import SectionTwo from "./components/SectionTwo";
+import SectionThree from "./components/SectionThree";
+import SectionFour from "./components/SectionFour";
 
 function App() {
   return (
@@ -21,8 +25,11 @@ function App() {
       <MainVideo />
       <VideoOne />
       <VideoTwo />
-
+      <SectionOne />
+      <SectionTwo />
       <VideoThree />
+      <SectionThree />
+      <SectionFour />
       <Signup />
       <Footer />
     </main>
