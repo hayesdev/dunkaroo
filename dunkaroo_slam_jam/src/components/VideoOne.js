@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
 
-function VideoSectionTwo() {
+function VideoOne() {
   return (
     <SectionContainer>
       <Info>
-        <h1>Music & Entertainment</h1>
+        <h1>Outdoor Adventures</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facilis
           ducimus iste sint quibusdam maxime corporis magnam nulla voluptate
@@ -21,7 +21,7 @@ function VideoSectionTwo() {
   );
 }
 
-export default VideoSectionTwo;
+export default VideoOne;
 
 const SectionContainer = styled.div`
   display: flex;
@@ -37,6 +37,9 @@ const Info = styled.div`
   display: flex;
   flex-direction: column;
   width: 40%;
+  > h1 {
+    color: #fb3299;
+  }
 `;
 
 const VideoContainer = styled.div`

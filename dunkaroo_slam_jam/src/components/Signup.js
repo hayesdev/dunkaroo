@@ -7,12 +7,12 @@ function Signup() {
       <SignupTitle>
         <h1>Sign up for Updates</h1>
         <p>
-          Get updates year-round, dank deals, raffles, baffles, gravy and so
-          much more.
+          Get official Dunkaroo Slam Jam updates year-round, dank deals,
+          raffles, baffles, gravy and so much more.
         </p>
       </SignupTitle>
       <SignupForm>
-        <input type="form" placeholder="Email Address"></input>
+        <input type="form" placeholder="Email Address" />
         <button>Sign up Now</button>
       </SignupForm>
     </SectionContainer>
@@ -26,7 +26,7 @@ const SectionContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #3282d4, #7142e4);
+  background: linear-gradient(90deg, #249ded, #3282d4, #7142e4);
   width: 100vw;
   height: 380px;
 `;
@@ -36,10 +36,20 @@ const SignupTitle = styled.div`
   flex-direction: column;
   justify-content: center;
   color: white;
-  border: 1px solid red;
+  > h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    /* border: 1px solid red; */
+  }
 `;
 
 const SignupForm = styled.form`
+  margin-top: 20px;
   width: 200px;
   height: 100px;
+  > button {
+    background: black;
+    color: white;
+  }
 `;

@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import ReactPlayer from "react-player";
 
-function SectionTwo() {
+function VideoThree() {
   return (
     <SectionContainer>
       <Info>
-        <h1>Music & Entertainment</h1>
+        <h1>Music VideoThreenment</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facilis
           ducimus iste sint quibusdam maxime corporis magnam nulla voluptate
@@ -20,7 +20,7 @@ function SectionTwo() {
   );
 }
 
-export default SectionTwo;
+export default VideoThree;
 
 const SectionContainer = styled.div`
   display: flex;

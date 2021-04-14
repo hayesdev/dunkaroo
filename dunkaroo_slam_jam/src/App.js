@@ -2,29 +2,30 @@ import React from "react";
 import Header from "./components/Header";
 
 import "./App.css";
-import SectionOne from "./components/SectionOne";
-import SectionTwo from "./components/SectionTwo";
-import VideoSectionOne from "./components/VideoSectionOne";
-import VideoSectionTwo from "./components/VideoSectionTwo";
-import VideoSectionThree from "./components/VideoSectionThree";
+import MainSection from "./components/MainSection";
+import VideoThree from "./components/VideoThree";
+import MainVideo from "./components/MainVideo";
+import VideoOne from "./components/VideoOne";
+import VideoTwo from "./components/VideoTwo";
 import Hero from "./components/Hero";
 import Signup from "./components/Signup";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <main>
       {/* USE SCOOBY DOO RUH ROH FOR ANYTHING CLICKABLE (besides menu and tickets) */}
       <Header />
       <Hero />
-      <SectionOne />
-      <VideoSectionOne />
-      <VideoSectionTwo />
-      <VideoSectionThree />
-      <SectionTwo />
+      <MainSection />
+      <MainVideo />
+      <VideoOne />
+      <VideoTwo />
+
+      <VideoThree />
       <Signup />
       <Footer />
-    </div>
+    </main>
   );
 }
 

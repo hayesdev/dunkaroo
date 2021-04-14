@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function SectionOne() {
+function MainSection() {
   return (
     <SectionContainer>
       <IntroSectionContainer>
@@ -20,7 +20,7 @@ function SectionOne() {
   );
 }
 
-export default SectionOne;
+export default MainSection;
 
 const SectionContainer = styled.div`
   display: flex;

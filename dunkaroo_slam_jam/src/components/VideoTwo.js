@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
 
-function VideoSectionThree() {
+function VideoTwo() {
   return (
     <SectionContainer>
       <VideoContainer>
@@ -21,13 +21,13 @@ function VideoSectionThree() {
   );
 }
 
-export default VideoSectionThree;
+export default VideoTwo;
 
 const SectionContainer = styled.div`
   display: flex;
   background: black;
   color: white;
-  justify-content: space-around;
+  justify-content: Two;
   align-items: center;
   width: 100vw;
   height: 400px;

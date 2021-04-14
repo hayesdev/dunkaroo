@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
 
-function VideoSectionOne() {
+function MainVideo() {
   return (
     <VideoSection>
       <VideoContainer>
@@ -12,7 +12,7 @@ function VideoSectionOne() {
   );
 }
 
-export default VideoSectionOne;
+export default MainVideo;
 
 const VideoSection = styled.div`
   display: flex;
